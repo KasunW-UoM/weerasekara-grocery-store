@@ -62,7 +62,6 @@ const Products = () => {
           <span>/</span>
           <span className="text-app-green font-medium">{activeCategory ?
             activeCategory.name : "All Products"}</span>
-
         </nav>
 
         <div className="flex gap-8 xl:gap-10">
