@@ -1,0 +1,1 @@
+// GET /api/product/flash-deals
