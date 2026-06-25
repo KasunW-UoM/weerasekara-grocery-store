@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "vercel-build": "prisma generate && npm run build",
-    "postinstall": "prisma generate",
+     "vercel-build": "prisma generate && npm run build",
+    "postinstall": "npx prisma generate",
     "start": "tsx server.ts",
     "server": "nodemon --exec tsx server.ts",
     "build": "tsc"
